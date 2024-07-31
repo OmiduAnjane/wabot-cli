@@ -1,0 +1,39 @@
+{
+  "name": "wabot-cli",
+  "version": "1.0.0",
+  "description": "A framework for creating WhatsApp bots with a quick start template",
+  "bin": {
+    "wabot": "bin/create-bot.js"
+  },
+  "scripts": {
+    "test": "echo \"No tests specified\" && exit 1"
+  },
+  "dependencies": {
+    "mongodb": "^6.8.0"
+  },
+  "devDependencies": {
+    "child_process": "^1.0.2"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "main": "test.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OmiduAnjane/wabot-cli.git"
+  },
+  "keywords": [
+    "whatsapp",
+    "wabot-cli",
+    "wabot",
+    "baileys",
+    "js",
+    "omindu"
+  ],
+  "author": "Omindu Dissanyaka",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/OmiduAnjane/wabot-cli/issues"
+  },
+  "homepage": "https://github.com/OmiduAnjane/wabot-cli#readme"
+}
