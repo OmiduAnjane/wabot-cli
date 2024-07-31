@@ -12,9 +12,9 @@ Welcome to Wabot, a command-line tool to quickly set up a WhatsApp bot project! 
 🛠️ Installation
 ----------------
 
-First, you need to install the `wabot` CLI tool. Run the following command to install it globally:
+First, you need to install the `wabot-cli` CLI tool. Run the following command to install it globally:
 
-    npm install -g wabot
+    npm install -g wabot-cli
 
 🚀 Creating a New Project
 -------------------------
