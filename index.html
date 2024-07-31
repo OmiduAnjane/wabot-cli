@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wabot CLI Tool</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📦 Wabot CLI Tool</h1>
+            <p>Powered by <code>@whiskeysockets/baileys</code></p>
+            <p>Developed by <strong>Omindu Dissanayaka</strong></p>
+            <p>🛠️ A tool for the ease of setting up a WhatsApp bot.</p>
+        </header>
+        <section class="intro">
+            <p>Welcome to Wabot, a command-line tool to quickly set up a WhatsApp bot project! Follow these simple steps to create your project and get started.</p>
+        </section>
+        <section class="installation">
+            <h2>🛠️ Installation</h2>
+            <p>First, you need to install the <code>wabot</code> CLI tool. Run the following command to install it globally:</p>
+            <pre><code>npm install -g wabot</code></pre>
+        </section>
+        <section class="creating-project">
+            <h2>🚀 Creating a New Project</h2>
+            <p>To create a new WhatsApp bot project, use the <code>create</code> command followed by your desired project name. This command will generate a new project directory with all necessary files.</p>
+            <pre><code>wabot create &lt;project-name&gt;</code></pre>
+            <p><strong>Example</strong></p>
+            <pre><code>wabot create my-whatsapp-bot</code></pre>
+            <p>This command will create a directory named <code>my-whatsapp-bot</code> with the following structure:</p>
+            <pre><code>my-whatsapp-bot/
+│
+├── index.js
+├── mongoAuthState.js
+├── settings.js
+└── package.json</code></pre>
+        </section>
+        <section class="project-files">
+            <h2>📁 Project Files</h2>
+            <ul>
+                <li><strong>index.js:</strong> The main entry point for your WhatsApp bot. This file contains the core logic for your bot.</li>
+                <li><strong>mongoAuthState.js:</strong> Manages authentication state using MongoDB.</li>
+                <li><strong>settings.js:</strong> Contains configuration settings such as MongoDB URL and collection names.</li>
+                <li><strong>package.json:</strong> Defines project dependencies and scripts. The name field in this file is set to your project name.</li>
+            </ul>
+        </section>
+        <section class="install-dependencies">
+            <h2>⚙️ Install Dependencies</h2>
+            <p>After creating your project, navigate to the project directory and install the required dependencies:</p>
+            <pre><code>cd &lt;project-name&gt;
+npm install</code></pre>
+        </section>
+        <section class="start-bot">
+            <h2>🚀 Start Your Bot</h2>
+            <p>To start your WhatsApp bot, run the following command inside your project directory:</p>
+            <pre><code>npm start</code></pre>
+        </section>
+        <section class="usage">
+            <h2>📜 Usage</h2>
+            <ul>
+                <li>Create a new project: <code>wabot create &lt;project-name&gt;</code></li>
+                <li>Navigate to the project directory: <code>cd &lt;project-name&gt;</code></li>
+                <li>Install dependencies: <code>npm install</code></li>
+                <li>Start the bot: <code>npm start</code></li>
+            </ul>
+        </section>
+        <section class="need-help">
+            <h2>🌟 Need Help?</h2>
+            <p>If you encounter any issues or have questions, feel free to open an issue on the GitHub repository.</p>
+        </section>
+        <footer>
+            <p>Happy coding! 🚀</p>
+        </footer>
+    </div>
+</body>
+</html>
